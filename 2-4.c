@@ -5,9 +5,11 @@
 
 // 학생 정보를 저장하는 구조체 정의
 typedef struct {
+
     char name[50];
     int student_number;
     int score;
+
 } Student;
 
 // 평균을 계산하는 함수

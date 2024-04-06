@@ -34,7 +34,7 @@ int main() {
 	
 	//입력된 학생 정보 출력
 	for (int i = 0; i < num_student; i++) {
-		printf("이름: %s, 학번: %d, 성적: %d", student[i].name, student[i].student_number, student[i].score);
+		printf("이름: %s, 학번: %d, 성적: %d\n", student[i].name, student[i].student_number, student[i].score);
 	}
 
 	return 0;

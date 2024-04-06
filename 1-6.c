@@ -2,7 +2,7 @@
 
 void printArrayAddress(int[][3]);
 
-void main(void){
+void main(){
 int array[2][3] = {{1, 2, 3}, {4, 5, 6}};//배열(행, 열) 임의의 값으로 초기화
 printf("배열 array의 출력 : \n");
 printArrayAddress(array);//printArrayAddress함수에 배열 array전달
