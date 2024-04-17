@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* pa[20]; //int로 선언이 되어있지만, 입력값은 char이라 오류가 발생
+//int* pa[20]; //int로 선언이 되어있지만, 입력값은 char이라 오류가 발생
 
 char* pa[] = {
 	"에러 1",

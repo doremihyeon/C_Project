@@ -40,18 +40,18 @@ int main() {
 
     // 학생 수 입력
     printf("학생 수를 입력하세요: ");
-    scanf("%d", &num_students);
+    scanf＿ｓ("%d", &num_students);
 
     // 학생 정보 입력
     for (int i = 0; i < num_students; i++) {
         printf("학생의 이름을 입력하세요: ");
-        scanf("%s", students[i].name);
+        scanf＿ｓ("%s", students[i].name);
 
         printf("학생의 학번을 입력하세요: ");
-        scanf("%d", &students[i].student_number);
+        scanf＿ｓ("%d", &students[i].student_number);
 
         printf("학생의 성적을 입력하세요: ");
-        scanf("%d", &students[i].score);
+        scanf＿ｓ("%d", &students[i].score);
     }
 
     // 평균과 표준 편차 계산

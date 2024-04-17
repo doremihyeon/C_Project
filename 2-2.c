@@ -18,18 +18,18 @@ int main() {
 	//학생 수 입력
 	int	num_student;
 	printf("학생수를 입력하세요:");
-	scanf("%d", &num_student);
+	scanf＿ｓ("%d", &num_student);
 	
 	//학생 정보 입력
 	for (int i = 0; i < num_student; i++) {
 		printf("이름을 입력하세요: ");
-		scanf("%s", student[i].name);
+		scanf＿ｓ("%s", student[i].name);
 
 		printf("학번을 입력하세요: ");
-		scanf("%d", &student[i].student_number);
+		scanf＿ｓ("%d", &student[i].student_number);
 
 		printf("성적을 입력하세요: ");
-		scanf("%d", &student[i].score);
+		scanf＿ｓ("%d", &student[i].score);
 	}
 	
 	//입력된 학생 정보 출력

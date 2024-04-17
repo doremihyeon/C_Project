@@ -19,14 +19,14 @@ void search(int arr[], int* target, int* index) {
 
 int main() {
 	//배열 선언
-	int arr[10] = { 23, 45, 12, 34, 65, 25, 89, 61, 26, 11 };
+	int arr[SIZE] = { 23, 45, 12, 34, 65, 25, 89, 61, 26, 11 };
 	//찾고자 하는 값
 	int target = 0;
 	//결과를 저장하는 변수
 	int index;
 
 	//search 함수 호출해 위치 찾기
-	scanf("%d", &target);
+	scanf_s("%d", &target);
 
 	search(arr, &target, &index);
 
