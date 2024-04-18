@@ -43,7 +43,7 @@ void main()
 	}
 	else {
 		*pd = 100; // 포인터값에 100 대입
-		printf("d = %lf\n", pd);// 출력
+		printf("d = %lf\n", *pd);// 출력
 	}
 
 	free(pc);
