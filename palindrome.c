@@ -1,7 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include <ctype.h>
+
 
 //배열 스택 정의
 typedef struct ArrayStack {
@@ -19,14 +22,14 @@ int palindrome(char in_str[]) {
 	for (i = 0; i < len; i++) {
 		ch = in_str[i];
 		// 만약 ch가 스페이스거나 구두점이면
-		if (ch == 32 && ch <= 47) continue;
+		if (ch > 31 && ch <= 47) continue;
 		ch = tolower(ch); // ch를 소문자로 변경
 		s.in_str[++s.top] = ch; //top을 먼저 +1하고, ch값을 저장한다.
 	}
 	for (i = 0; i < len; i++) {
 		ch = in_str[i];
 		// 만약 ch가 스페이스거나 구두점이면
-		if (ch == 32 && ch <= 47) continue;
+		if (ch > 31 && ch <= 47) continue;
 		ch = tolower(ch); // ch를 소문자로 변경
 		chs = s.in_str[s.top--]; // ch값을 chs에 저장하고, top을 -1한다.
 		if (ch != chs) return false; // 실패(0)
@@ -36,7 +39,7 @@ int palindrome(char in_str[]) {
 int main(void) {
 	ArrayStack s;
 	int a;
-	scanf("%[^\n]", s.in_str);
+	scanf("%[^\n]s", s.in_str);
 	a = palindrome(s.in_str);
 	if (a == 1) printf("회문입니다.");
 	else printf("회문이 아닙니다.");
