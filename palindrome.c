@@ -16,7 +16,7 @@ int palindrome(char in_str[]) {
 	char ch, chs;
 	int len = strlen(in_str); // 입력 문자열의 길이를 계산
 
-	s.top = -1; // 스택 초기화
+	s.top = -1; // 스택 -1 초기화
 	for (i = 0; i < len; i++) { // 입력 문자열의 각 문자를 순회
 		ch = in_str[i]; // 현재 문자를 ch에 저장
 		// 만약 ch가 스페이스이거나 구두점이면
