@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\datastructure">
+      <UniqueIdentifier>{74295b93-1152-4714-a568-c37aa9f26c7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10998.c">
@@ -21,5 +24,115 @@
     <ClCompile Include="14215.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1-1.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="1-4.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="1-5.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="1-6.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="2-2.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-1.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-2.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-3.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-4.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-5.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-6.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-8.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-9.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-10.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-11.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-12.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-13.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-14.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-15.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-16.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-17-2.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="3-17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="216-11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="311.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9012.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Cqueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Listqueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2-1.c">
+      <Filter>소스 파일\datastructure</Filter>
+    </None>
+    <None Include="3-172">
+      <Filter>소스 파일\datastructure</Filter>
+    </None>
   </ItemGroup>
 </Project>

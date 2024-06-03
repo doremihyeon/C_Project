@@ -16,7 +16,7 @@ int main() {
 	pi = &i;
 	pf = &f;
 	pd = &d;
-	printf("%lu %lu %lu\n", pi, pf, pd);
+	Aprintf("%lu %lu %lu\n", pi, pf, pd);
 	//i, f, d¿¡ 100ÇÒ´ç
 	*pi = 100;
 	*pf = 100;
