@@ -123,5 +123,7 @@ int main(void) {
                 printf("커플이 탄생했습니다! %s과 %s\n\n", male.name, S.name); // 커플 탄생
             }
         }
-        return 0; // 프로그램 종료
+       
     }
+    return 0; // 프로그램 종료
+}
