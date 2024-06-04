@@ -7,7 +7,6 @@
 
 typedef struct word {
 	int line[max];
-    int ;
     DataType text;
 }word;
 
